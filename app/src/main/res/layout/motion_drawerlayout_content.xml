@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app.elblasy.cordinatormotionlayout.DrawerContent xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/motion_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layoutDescription="@xml/scene_content">
+
+    <include layout="@layout/activity_main" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/image"
+        app:cardElevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/back_ground" />
+    </androidx.cardview.widget.CardView>
+
+
+</app.elblasy.cordinatormotionlayout.DrawerContent>
